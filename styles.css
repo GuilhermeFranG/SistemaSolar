@@ -8,7 +8,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.850) 5%, #eb9429 10%, #6d72a5bd 18%, #8b6a3bcc 24%, #456050 33%, #763819cb 45%,
+    background-image: linear-gradient(rgba(0, 0, 0, 0.850) 5%, #eb9429 10%, #6d72a5bd 15%, #8b6a3bcc 23%, #456050 33%, #763819cb 45%,
             #d3ba76 53%, rgba(0, 0, 0, 0.850) 62%, #a8dbed 68%, #4c7bf8 72%, #424242 75%, #837d7b 88%, #a39eb2 95%, #543133);
     align-items: center;
 }
@@ -18,6 +18,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    float: left;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h1 {
     color: whitesmoke;
     text-align: center;
 }
+a {text-decoration: none;}
 
 
 
@@ -46,6 +48,57 @@ h1 {
 
 
 
+nav {
+    background-image: linear-gradient(to right, #8d6073 8%,#2a1127,#071024,#013b4a,#000114);
+    height: 25px;
+    width: 65%;
+    margin-left: 18%;
+    border-radius: 0 0 10px 10px;
+    transition: 0.4s;
+}
+nav:hover {border-radius: 0;}
+
+ul {
+    font-size: smaller;
+    list-style: none;
+    text-align: center;
+}
+
+ul .category {position: relative; width: 290px; float: left;}   
+
+nav > ul {border-top: 1px solid whitesmoke;}
+
+li a {
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 5px;
+    display: block;
+    transition: 0.5s;
+}
+li a:hover {
+    text-shadow: 1px 1px 3px whitesmoke;
+}
+
+li ul {
+    position: absolute;
+    top: 19px;
+    display: none;
+    width: 100%;
+    padding: 5px 0 10px;
+}
+li:hover ul {display: block;}
+
+li ul li { 
+    background-image: linear-gradient(to right, #8d6073 1%,#071024 50%,#8d6073 99%);
+    border: 1px solid #2a1127;
+    display: block;
+    z-index: 1;
+}
+
+
+
 
 .astro {
     margin: 10% 10% 40px;
@@ -55,6 +108,7 @@ h1 {
 }
 
 #sol {width: 800px; height: 800px;}
+
 #mercurio {height: 320px; width: 600px;}
 #venus {height: 435px; width: 435px;}
 #terra {width: 500px; height: 500px;}
@@ -63,6 +117,7 @@ h1 {
 #saturno {width: 830px; height: 580px; border-radius: 0;}
 #urano {height: 600px; width: 700px;}
 #netuno {height: 525px; width: 525px;}
+
 #plutao {width: 310px; height: 310px;}
 #ceres {width: 195px; height: 195px;}
 #haumea {width: 295px; height: 295px;}
@@ -74,6 +129,7 @@ h1 {
 
 
 footer {
+    float: left;
     padding: 2vh 0 2vh;
     position: relative;
     bottom: 0;
