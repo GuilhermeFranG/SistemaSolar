@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.850) 5%, #eb9429 10%, #6d72a5bd 18%, #8b6a3bcc 24%, #456050 33%, #763819cb 45%,
+            #d3ba76 53%, rgba(0, 0, 0, 0.850) 62%, #a8dbed 68%, #4c7bf8 72%, #424242 75%, #837d7b 88%, #a39eb2 95%, #543133);
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-shadow: 4px 4px black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+#headerText {
+    height: 100%;
+    font-size: 200px;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2018/07/Sistema-solar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dwarfText {
+    background-image: linear-gradient(#4c7bf8, #424242);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20vh 0 0 0;
+}
+
+
+
+
+
+.astro {
+    margin: 10% 10% 40px;
+    border-radius: 999%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#sol {width: 800px; height: 800px;}
+#mercurio {height: 320px; width: 600px;}
+#venus {height: 435px; width: 435px;}
+#terra {width: 500px; height: 500px;}
+#marte {height: 410px; width: 410px;}
+#jupiter {width: 645px; height: 645px;}
+#saturno {width: 830px; height: 580px; border-radius: 0;}
+#urano {height: 600px; width: 700px;}
+#netuno {height: 525px; width: 525px;}
+#plutao {width: 310px; height: 310px;}
+#ceres {width: 195px; height: 195px;}
+#haumea {width: 295px; height: 295px;}
+#makemake {width: 245px; height: 245px;}
+#eris {width: 280px; height: 280px;}
+#sedna {width: 215px; height: 215px;}
+
+
+
+
+footer {
+    padding: 2vh 0 2vh;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: rgb(216, 245, 255);
+    text-align: center;
+    text-shadow: 1px 2px 2px darkblue;
+    font-weight: bolder;
+    font-size: small;
+    background-image: linear-gradient(to right, #225f96, #0088ff, #225f96);
+}
+footer a {
+    text-decoration: none;
+    color: rgb(131, 224, 255);
+}
