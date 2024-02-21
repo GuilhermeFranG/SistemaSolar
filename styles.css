@@ -26,6 +26,7 @@ h1 {
     color: whitesmoke;
     text-align: center;
 }
+
 a {text-decoration: none;}
 
 
@@ -129,6 +130,7 @@ li ul li {
 
 
 footer {
+    margin-top: 10%;
     float: left;
     padding: 2vh 0 2vh;
     position: relative;
