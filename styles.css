@@ -188,7 +188,8 @@ li ul li {
     transition: opacity 0.5s ease, max-height 0.4s ease;
 }
 
-.astrolink {color: #d81064; transition: 0.3s;} .astrolink:active {color: orangered;}
+.astrolink {color: #d81064; transition: 0.3s;} 
+.astrolink:active {color: orangered;}
 
 
 
