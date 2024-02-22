@@ -59,15 +59,16 @@ nav {
 }
 nav:hover {border-radius: 0;}
 
+nav > ul {border-top: 1px solid whitesmoke;}
+
 ul {
     font-size: smaller;
     list-style: none;
     text-align: center;
 }
 
+ul li:hover {opacity: 0.90;}
 ul .category {position: relative; width: 290px; float: left;}   
-
-nav > ul {border-top: 1px solid whitesmoke;}
 
 li a {
     cursor: pointer;
@@ -79,7 +80,7 @@ li a {
     transition: 0.5s;
 }
 li a:hover {
-    text-shadow: 1px 1px 3px whitesmoke;
+    text-shadow: 1px 1px 3px #d81064;
 }
 
 li ul {
@@ -125,6 +126,36 @@ li ul li {
 #makemake {width: 245px; height: 245px;}
 #eris {width: 280px; height: 280px;}
 #sedna {width: 215px; height: 215px;}
+
+
+#Toheader {
+    padding-top: 20px;
+    float: right;
+    right: 0;
+    top: 0;
+    position: sticky;
+    display: flex; 
+    flex-direction: row;
+    margin: 0 0 0 93vw;
+}
+
+.ToheaderBtn {
+    background-color: #000114;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.ToheaderBtn:hover {
+    border: 1px solid #d81064;
+    transform: scale(1.1);
+}
+.ToheaderBtn:active {
+    opacity: 0.85;
+}
 
 
 
