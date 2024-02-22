@@ -8,8 +8,8 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.850) 5%, #eb9429 10%, #6d72a5bd 15%, #8b6a3bcc 23%, #456050 33%, #763819cb 45%,
-            #d3ba76 53%, rgba(0, 0, 0, 0.850) 62%, #a8dbed 68%, #4c7bf8 72%, #424242 75%, #837d7b 88%, #a39eb2 95%, #543133);
+    background-image: linear-gradient(black 3%, #eb9429 9%, #6d72a5bd 16%, #8b6a3bcc 25%, #456050 35%, #763819cb 40%,
+    #d3ba76 50%, #a8dbed 59%, #4c7bf8 65%, black 70%, #424242 75%, #837d7b 88%, #a39eb2 95%, #543133);
     align-items: center;
 }
 
@@ -47,7 +47,7 @@ a {text-decoration: none;}
 }
 
 #planetTitle {
-    margin: 20vh 0 0 0;
+    margin: 25vh 0 0 0;
     cursor: pointer;
     background-image: linear-gradient(#eb9429,#6d72a5bd 50%);
     border-radius: 15px;
@@ -55,10 +55,10 @@ a {text-decoration: none;}
 }
 
 #dwarfText {
-    background-image: linear-gradient(#4c7bf8, #424242);
+    background-image: linear-gradient(black, #424242);
     border-radius: 15px;
     padding: 10px;
-    margin: 20vh 0 0 0;
+    margin: 25vh 0 0 0;
     cursor: pointer;
 }
 
