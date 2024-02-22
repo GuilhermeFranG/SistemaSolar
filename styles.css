@@ -60,8 +60,8 @@ a {text-decoration: none;}
 nav {
     background-image: linear-gradient(to right, #8d6073 8%,#2a1127,#071024,#013b4a,#000114);
     height: 25px;
-    width: 65%;
-    margin-left: 18%;
+    width: 77%;
+    margin-left: 12%;
     border-radius: 0 0 10px 10px;
     transition: 0.4s;
 }
@@ -76,7 +76,7 @@ ul {
 }
 
 ul li:hover {opacity: 0.90;}
-ul .category {position: relative; width: 290px; float: left;}   
+ul .category {position: relative; width: 254px; float: left;}   
 
 li a {
     cursor: pointer;
