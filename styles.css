@@ -21,6 +21,13 @@ main {
     float: left;
 }
 
+h4 {
+    font-size: 23px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    cursor: pointer;
+}
+
 h1 {
     text-shadow: 4px 4px black;
     color: whitesmoke;
@@ -44,6 +51,7 @@ a {text-decoration: none;}
     border-radius: 15px;
     padding: 10px;
     margin: 20vh 0 0 0;
+    cursor: pointer;
 }
 
 
@@ -103,7 +111,7 @@ li ul li {
 
 
 .astro {
-    margin: 10% 10% 40px;
+    margin: 10% 10% 30px;
     border-radius: 999%;
     cursor: pointer;
     transition: 0.5s;
@@ -155,6 +163,29 @@ li ul li {
 }
 .ToheaderBtn:active {
     opacity: 0.85;
+}
+
+.zoom {
+    transform: scale(1.40);
+}
+
+.hidden {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.description.visible {
+    background-color: #000114;
+    padding: 20px;
+    border-radius: 25px;
+    width: 65%;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px #d81064;
+    transition: opacity 0.5s ease, max-height 0.4s ease;
 }
 
 
